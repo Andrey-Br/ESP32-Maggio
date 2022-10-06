@@ -14,6 +14,7 @@ void setup() {
 
   Serial.begin(115200);
   EEPROM.begin(255);
+  
   // Serial.println("Start");
 
   pinMode(PIN_MIXER1,OUTPUT);
